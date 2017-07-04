@@ -12,7 +12,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://188.166.229.72',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -23,7 +23,7 @@ config = {
         },
 
         server: {
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             port: '2368'
         }
     },
@@ -32,7 +32,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://localhost:2368',
+        url: 'http://188.166.229.72',
 
         // Example refferer policy
         // Visit https://www.w3.org/TR/referrer-policy/ for instructions
@@ -67,7 +67,7 @@ config = {
         // Can be host & port (default), or socket
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         },
