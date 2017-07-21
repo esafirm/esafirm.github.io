@@ -12,7 +12,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'https://nolamda.stream',
+        url: 'https://nolambda.stream',
         mail: {},
         database: {
             client: 'sqlite3',
